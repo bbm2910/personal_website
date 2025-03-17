@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website - Bobby Mastacan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/img/alpha-b-circle-custom.png"
+    />
+  </head>
+  <body>
+    <div class="error" id="error-page">
+      <img src="img/icons8-dead-64.png" class="ghost-image" alt="ghost image" />
+      <h2 class="error-h2">Oops! Not found</h2>
+      <br />
+      <p class="error-p">
+        We're sorry, but the service you are trying to use is not available.
+        Please come back later.
+      </p>
+      <button class="back-to-main-btn">Back to main page</button>
+    </div>
+
+    <div class="wrapper">
+      <div id="shadow">
+        <!-- <img src="img/torch.png" alt="a torch picture" id="torch-img" /> -->
+      </div>
+
+      <header class="left-side">
+        <h1>Bobby Mastacan</h1>
+        <p class="title-description">Code Enthusiast</p>
+        <section class="skills-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Skill</th>
+                <th>Projects Completed</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML/CSS</td>
+                <td>12+</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>React</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>Node.js</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Flutter</td>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- <div class="profile-image">
+          <img src="img/bob.png" alt="Profile picture" id="profile-img" />
+        </div> -->
+
+        <nav class="menu">
+          <a href="#section1" id="about-me">_aboutMe</a>
+          <a href="#section2" id="my-work">_someProjects</a>
+          <a href="#section3" id="cv">_CV</a>
+        </nav>
+        <div class="useful-links">
+          <a href="https://github.com/bbm2910" target="_blank"
+            ><img src="img/github-icon.png" alt="GitHub"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/bobby-mastacan-353b8b183/"
+            target="_blank"
+            ><img src="img/linkedin-logo.png" alt="LinkedIn"
+          /></a>
+          <a href="" target="_blank"
+            ><img src="img/whatsapp.png" alt="WhatsApp" class="whatsapp-btn"
+          /></a>
+        </div>
+      </header>
+
+      <main class="right-side" id="content">
+        <section class="about" id="section1">
+          <h2>About Me</h2>
+          <div class="description">
+            <div class="profile-image">
+              <img src="img/bob.png" alt="Profile picture" id="profile-img" />
+            </div>
+            <p>
+              Welcome! <br />
+              I am Bobby, a web developer with experience in property services
+              and TV production. My time in London's property market helped me
+              develop my problem-solving abilities, and my experience in TV has
+              equipped me to work efficiently under pressure. Operating my own
+              business for three years has sparked my creativity and
+              entrepreneurial mindset.Now, I focus on combining innovative ideas
+              with technology to develop user-centered digital solutions. My
+              unique perspective allows me to address web development challenges
+              effectively. <br />
+              Thank you for visiting.
+            </p>
+          </div>
+        </section>
+
+        <section class="projects" id="section2">
+          <h2>Projects</h2>
+          <div class="project">
+            <a href="https://bbm2910.github.io/buy_box/" target="_blank"
+              ><img src="img/shop.png" alt="app"
+            /></a>
+            <div>
+              <span><img src="img/folder.png" alt="folder icon" /></span>
+              <p>
+                <span>Mock shopping cart</span> - a straightforward React-based
+                web application designed for a simulated shopping cart
+                experience. It utilizes React Router for seamless navigation and
+                retrieves item data from a server through the useFetch custom
+                hook.
+              </p>
+              <a
+                href="https://github.com/bbm2910/buy_box"
+                target="_blank"
+                class="projects-link"
+                >More on Github...</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <a href="https://bbm2910.github.io/weather-check/" target="_blank"
+              ><img src="img/weather-app.png" alt="weather app"
+            /></a>
+            <div>
+              <span><img src="img/folder.png" alt="folder icon" /></span>
+              <p>
+                <span>Weather-app</span> - this application helps users to
+                search for the weather conditions of a particular city. It
+                retrieves current weather data from the OpenWeatherMap API and
+                presents a range of weather details, including a 7-day forecast.
+              </p>
+              <a
+                href="https://github.com/bbm2910/weather-check"
+                target="_blank"
+                class="projects-link"
+                >More on Github...</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <a
+              href="https://bbm2910.github.io/rock_paper_scissors-game/"
+              target="_blank"
+              ><img
+                src="img/rock-paper-scissors.png"
+                alt="rock paper scissor app"
+            /></a>
+            <div>
+              <span><img src="img/folder.png" alt="folder icon" /></span>
+              <p>
+                <span>Rock Paper Scissors</span> - a web-based adaptation of the
+                traditional game "Rock, Paper, Scissors".
+              </p>
+              <a
+                href="https://github.com/bbm2910/rock_paper_scissors-game"
+                target="_blank"
+                class="projects-link"
+                >More on Github...</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <a href="https://bbm2910.github.io/MathMate" target="_blank"
+              ><img src="img/calculator.png" alt="calculator app"
+            /></a>
+            <div>
+              <span><img src="img/folder.png" alt="folder icon" /></span>
+              <p>
+                <span>Calculator</span> - web-based calculator made with HTML,
+                CSS, and JavaScript. It enables users to conduct fundamental
+                arithmetic operations.
+              </p>
+              <a
+                href="https://github.com/bbm2910/MathMate"
+                target="_blank"
+                class="projects-link"
+                >More on Github...</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <a href="https://bbm2910.github.io/X_and_O-game/" target="_blank"
+              ><img src="img/tic-tac-toe.png" alt="tic tac toe web app"
+            /></a>
+            <div>
+              <span><img src="img/folder.png" alt="folder icon" /></span>
+              <p>
+                <span>Tic-Tac-Toe</span> - web-based version of the Tic-Tac-Toe
+                game build with HTML, CSS, and JavaScript.
+              </p>
+              <a
+                href="https://github.com/bbm2910/X_and_O-game"
+                target="_blank"
+                class="projects-link"
+                >More on Github...</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <a href="https://bbm2910.github.io/QR-Genarator/" target="_blank"
+              ><img src="img/qr-code.png" alt="etch a sketch app"
+            /></a>
+            <div>
+              <span><img src="img/folder.png" alt="" /></span>
+              <p>
+                <span>QR Code Generator</span> - powered by the QRServer API.
+              </p>
+              <a
+                href="https://github.com/bbm2910/QR-Genarator"
+                target="_blank"
+                class="projects-link"
+                >More on Github...</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section class="cv" id="section3">
+          <h2>Curriculum Vitae</h2>
+          <div class="cv-section">
+            <p class="cv-date">2023 - Present</p>
+            <div>
+              <h3>Web Development Studies</h3>
+              <img
+                src="img/javascript-39422.png"
+                alt="js logo"
+                class="js-logo"
+              />
+              <img src="img/react.png" alt="react logo" class="react-logo" />
+              <img
+                src="img/nodejs-logo.png"
+                alt="nodejs logo"
+                class="tech-logo"
+              />
+              <img
+                src="img/mongodb-logo.png"
+                alt="mongodb logo"
+                class="tech-logo"
+              />
+              <img
+                src="img/icons8-flutter-48.png"
+                alt="flutter logo"
+                class="tech-logo"
+              />
+              <img
+                src="img/icons8-firebase-48.png"
+                alt="firebase logo"
+                class="tech-logo"
+              />
+              <img
+                src="img/icons8-wordpress-48.png"
+                alt="wordpress logo"
+                class="tech-logo"
+              />
+              <ul>
+                <li class="li">
+                  I started an exciting professional development journey with
+                  <a href="https://www.theodinproject.com/" target="_blank"
+                    >The Odin Project,</a
+                  >, which is a fantastic online course all about full-stack web
+                  development. This program has really helped me boost my coding
+                  skills as I've put my theoretical knowledge into practice by
+                  creating fun games and applications. I have been learning to
+                  work with various programming languages and frameworks,
+                  including
+                  <span class="technologies">HTML</span>
+                  <span class="technologies">CSS</span>
+                  <span class="technologies">JavaScript</span>
+                  <span class="technologies">React</span
+                  ><span class="technologies">Node.js</span>
+                  <span class="technologies">Express.js</span>
+                  <span class="technologies">MongoDB</span>
+                </li>
+                <li class="li">
+                  Developed multiple websites using content management systems,
+                  gaining hands-on experience in setting up web hosting
+                  environments, configuring domains, and managing databases.
+                  Along the way, I acquired foundational knowledge of PHP,
+                  enhanced my understanding of website deployment, and improved
+                  my ability to troubleshoot technical issues, all to ensure
+                  that sites run smoothly and efficiently.
+                </li>
+                <li class="li">
+                  Completed
+                  <a href="https://www.infoacademy.ro/" target="_blank"
+                    >InfoAcademy</a
+                  >
+                  HTML/CSS course, improving my skills in creating visually
+                  appealing and user-friendly web interfaces.
+                </li>
+                <li class="li">
+                  Collaborated on the development of a cross-platform mobile
+                  application using
+                  <span class="technologies">Flutter</span> and
+                  <span class="technologies">Dart</span>, actively participating
+                  in all stages of the development lifecycle and implemented a
+                  secure user authentication system using
+                  <span class="technologies">Firebase</span>.
+                </li>
+                <li class="li">
+                  Volunteered with
+                  <a href="https://www.scottishtecharmy.org/" target="_blank"
+                    >The Scottish tech Army</a
+                  >, helping charities improve their websites.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cv-section">
+            <p class="cv-date">2019 - 2022</p>
+            <div>
+              <h3>General Manager</h3>
+              <img
+                src="img/icons8-construction-manager-64.png"
+                alt="Manager icon"
+                class="manager-img"
+              />
+              <ul>
+                <li class="li">
+                  As a team leader, I focused on clear guidance and fostering
+                  collaboration. I worked closely with contractors, valuing
+                  their expertise and integrating it into our projects.<br /><br />
+                  <em>'Good communication keeps everyone aligned.'</em>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cv-section">
+            <p class="cv-date">2011 - 2019</p>
+            <div>
+              <h3>Additional Experience</h3>
+              <img
+                src="img/icons8-ruler-48.png"
+                alt="Ruler icon"
+                class="camera-img"
+              />
+              <img
+                src="img/icons8-documentary-50.png"
+                alt="Documentary icon"
+                class="camera-img"
+              />
+              <ul>
+                <li class="li">General Builder - Property Services</li>
+                <li class="li">
+                  Camera Assistant,
+                  <a href="https://www.digi24.ro/" target="_blank">Digi 24</a>
+                </li>
+                <li class="li">
+                  Camera Assistant,
+                  <a href="https://www.b1tv.ro/" target="_blank">B1 TV</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cv-section">
+            <p class="cv-date">2006 - 2011</p>
+            <div>
+              <h3>Education & Certifications</h3>
+              <img
+                src="img/certficate.png"
+                alt="Certificate icon"
+                class="camera-img"
+              />
+              <ul>
+                <li class="li">ISC2 <br />Certified in Cybersecurity</li>
+                <li class="li">
+                  AWS Practioner Essentials course <br />Certificaton in
+                  progress
+                </li>
+                <li class="li">
+                  The Odin Project <br />Full-Stack Web Development
+                </li>
+                <li class="li">
+                  University - Bucharest <br />Business Administration and
+                  Management
+                </li>
+                <li class="li">
+                  High School <br />A-Level in Electrical Engineering
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact-section" class="contact">
+          <h2>Send a message</h2>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                style="resize: none !important; width: 95%"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <footer id="scrollingFooter">
+      <p>
+        &copy; 2024 Bobby Mastacan<br />
+        Part of LaFosse <em>Build your personal HTML/CSS website</em>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
